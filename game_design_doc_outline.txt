@@ -1,0 +1,23 @@
+~Tasks~
+
+Narrative
+AssetStore
+Scripts
+
+
+1. Game Overview
+	- Executive Summary
+2. Core Gameplay
+	- Main Game View
+	- Core Player Activity
+	- Game Controls
+	- In-Game GUI
+3. Contextual Gameplay
+	- Game Flow Diagram
+	- Game Mechanics
+4. Game Elements
+	- Area Design
+	- Objects
+	- End Screen
+5. Sound
+	- Sound Effects
