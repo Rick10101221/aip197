@@ -27,7 +27,7 @@ public class Student : MonoBehaviour
     private Queue<Vector2> movementHistory;    // previous mouse movements
     private Vector2 average;    // averaged motion vector
     private float yaw, pitch;    // camera rotation
-    private pencilDist, pencilLat;    // pencil position
+    private float pencilDist, pencilLat;    // pencil position
 
     private void Awake()
     {
