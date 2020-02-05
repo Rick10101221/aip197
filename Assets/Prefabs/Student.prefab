@@ -50,7 +50,7 @@ MonoBehaviour:
   pencil: {fileID: 2238083612640951129}
   pointer: {fileID: 648328405810459696}
   impactThreshold: 0.5
-  pencilSlant: 120
+  pencilSlant: 30
 --- !u!1 &648328405810459696
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +125,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.01
+    widthMultiplier: 0.0025
     widthCurve:
       serializedVersion: 2
       m_Curve:

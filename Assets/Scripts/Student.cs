@@ -13,7 +13,7 @@ public class Student : MonoBehaviour
 
     /* How much the pencil is tilted from the pointer. */
     [SerializeField]
-    private float pencilSlant = 120f;
+    private float pencilSlant = 30f;
     #pragma warning restore CS0649
 
     private void LateUpdate()
@@ -21,6 +21,11 @@ public class Student : MonoBehaviour
         pointer.transform.position = pencil.transform.position;
         pointer.transform.rotation = pencil.transform.rotation;
 
-        pencil.GetComponentInChildren<MeshRenderer>().transform.rotation *= Quaternion.AngleAxis(pencilSlant, Vector3.left);
+        MeshRenderer pencilClone = pencil.GetComponentInChildren<MeshRenderer>();
+
+        if (pencilClone)
+        {
+            pencilClone.transform.localRotation = Quaternion.AngleAxis(180f - pencilSlant, Vector3.left);
+        }
     }
 }
