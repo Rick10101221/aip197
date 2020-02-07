@@ -46,10 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d062857c8d44215a4b49fa5ff132e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paper: {fileID: 6216264994474412637}
   pencil: {fileID: 2238083612640951129}
   pointer: {fileID: 648328405810459696}
-  impactThreshold: 0.5
+  triggerThreshold: 0.1
   pencilSlant: 30
 --- !u!1 &648328405810459696
 GameObject:
@@ -190,6 +189,7 @@ GameObject:
   - component: {fileID: 7087803666955521776}
   - component: {fileID: 3770705258329951342}
   - component: {fileID: 7330354417748002350}
+  - component: {fileID: 6100705330552812192}
   m_Layer: 0
   m_Name: Paper
   m_TagString: Untagged
@@ -271,9 +271,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paperRT: {fileID: 8400000, guid: e3ba6cd57a89f4d8b879af0a59f611d1, type: 2}
   mat: {fileID: 2100000, guid: a054c197d0dad413b9c5f6ce465cc7f6, type: 2}
-  strokeThickness: 0.1
-  xDim: 0.2159
-  yDim: 0.2794
+  strokeThickness: 0.01
+--- !u!65 &6100705330552812192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6216264994474412637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2159, y: 0.2794, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2238083612640823309
 PrefabInstance:
   m_ObjectHideFlags: 0

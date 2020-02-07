@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider))]
 class Paper : MonoBehaviour
 {
     #pragma warning disable CS0649
@@ -14,45 +15,63 @@ class Paper : MonoBehaviour
     /* Thickness of pencil stroke. */
     [SerializeField]
     private float strokeThickness;
-
-    /* Paper aspect ratio. */
-    [SerializeField]
-    private float xDim = 0.2159f, yDim = 0.2794f;
     #pragma warning restore CS0649
 
     private Vector2 lastPos;
+    private float xDim, yDim;
 
     private void Awake()
     {
+        /* Clear the paper to white. */
         Graphics.SetRenderTarget(paperRT);
         GL.Clear(false, true, Color.white);
+
+        /* Get collider bounds for the paper's aspect ratio. */
+        BoxCollider collider = GetComponent<BoxCollider>();
+        xDim = collider.bounds.size.x;
+        yDim = collider.bounds.size.z;
     }
 
-    public void Impact(Vector3 pos, float impactSpeed)
+    public void ClearLast()
     {
-        /*Vector3 localPos = transform.InverseTransformPoint(pos);
-        Vector2 uv = new Vector2(localPos.x / xDim + 0.5f, localPos.y / yDim + 0.5f);
+        lastPos = Vector2.zero;
+    }
 
+    public void Impact(Vector3 pos, float amount)
+    {
+        Vector3 localPos = transform.InverseTransformPoint(pos);
+        Vector2 uv = new Vector2(0.5f - localPos.x / xDim, localPos.y / yDim + 0.5f);
         Vector2 dir = uv - lastPos;
-        dir.Normalize();
-        Vector2 perpendicular = new Vector2(-dir.y, dir.x);
+        amount *= strokeThickness;
 
-        Debug.LogWarning(uv);
+        if (dir.magnitude > amount)
+        {
+            dir.Normalize();
+            dir.y *= yDim / xDim;
 
-        Graphics.SetRenderTarget(paperRT);
-        GL.PushMatrix();
-        mat.SetPass(0);
-        GL.LoadOrtho();
+            Vector2 perpendicular = new Vector2(-dir.y, dir.x);
 
-        GL.Begin(GL.QUADS);
-        GL.Vertex(uv - (strokeThickness + impactSpeed) * dir);
-        GL.Vertex(uv - (strokeThickness + impactSpeed) * perpendicular);
-        GL.Vertex(uv + (strokeThickness + impactSpeed) * dir);
-        GL.Vertex(uv + (strokeThickness + impactSpeed) * perpendicular);
-        GL.End();
+            Graphics.SetRenderTarget(paperRT);
+            GL.PushMatrix();
+            mat.SetPass(0);
+            GL.LoadOrtho();
 
-        GL.PopMatrix();
+            GL.Begin(GL.QUADS);
+            GL.Vertex(uv - amount * dir);
+            GL.TexCoord(new Vector3(0, 0, 0));
 
-        lastPos = uv;*/
+            GL.Vertex(uv + amount * perpendicular);
+            GL.TexCoord(new Vector3(0, 1, 0));
+
+            GL.Vertex(uv + amount * dir);
+            GL.TexCoord(new Vector3(1, 1, 0));
+
+            GL.Vertex(uv - amount * perpendicular);
+            GL.TexCoord(new Vector3(1, 0, 0));
+            GL.End();
+
+            GL.PopMatrix();
+            lastPos = uv;
+        }
     }
 }

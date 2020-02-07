@@ -12,8 +12,6 @@
             "Queue" = "Transparent"
         }
 
-        ZTest Off
-
         Pass
         {
             CGPROGRAM
