@@ -273,10 +273,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199881251330519879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ac1100fbb1050f4d956e8204fd4a74a, type: 3}
+  m_Script: {fileID: 11500000, guid: 15b69e371d14b4eb1bc6bcba5d954292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1199881251330519881}
 --- !u!1 &1199881251583850329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199881252827101292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ae9cb2162f150f408f5ce8aea3d7c12, type: 3}
+  m_Script: {fileID: 11500000, guid: fd78ce6fd511249de8590665b54c7545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1199881251876346067}
@@ -2720,7 +2720,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199881252842498972}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da515b905b2906a45b965e910d36ae07, type: 3}
+  m_Script: {fileID: 11500000, guid: 0370454664da848caaba3bc92d773594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainSlider: {fileID: 1199881252842498975}
