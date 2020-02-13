@@ -17,6 +17,7 @@ public class Difficulty_level : MonoBehaviour
     {
         //calculate the change in difficuly level and return a float
         //TODO!!!
+        return 1;
     }
 
     // Start is called before the first frame update

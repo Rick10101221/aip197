@@ -5,8 +5,10 @@ using UnityEngine;
 public class Timer_round : MonoBehaviour
 {
     private float nTime; // current time of the game
+    private float minutes;
+    private float seconds;
     private float start_T; // different start or limited time for each turn
-    private Text display_time;
+    private Text display_time; //TODO!!!
     
     public float Start_Time // get and set start_time
     {
@@ -30,6 +32,8 @@ public class Timer_round : MonoBehaviour
     {
         display_time = GetComponent<Text>();
         nTime = start_T;
+        minutes = nTime / 60f;
+        seconds = nTime % 60f;
     }
 
     // Update is called once per frame
@@ -37,6 +41,8 @@ public class Timer_round : MonoBehaviour
     {
         //update current time
         nTime -= Time.deltaTime;
+        minutes = nTime / 60f;
+        seconds = nTime % 60f;
 
         // round end
         if (nTime <= 0)
@@ -50,9 +56,7 @@ public class Timer_round : MonoBehaviour
         else
         {
             //display current remaining time
-            minutes = nTime / 60f;
-            seconds = nTime % 60f;
-            display_time.text = minutes + ":" + seconds.ToString("00");
+            display_time.text = minutes.ToString("00") + ":" + seconds.ToString("00");
         }
     }
 }
