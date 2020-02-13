@@ -270,7 +270,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paperRT: {fileID: 8400000, guid: e3ba6cd57a89f4d8b879af0a59f611d1, type: 2}
-  mat: {fileID: 2100000, guid: a054c197d0dad413b9c5f6ce465cc7f6, type: 2}
+  pencilMat: {fileID: 2100000, guid: a054c197d0dad413b9c5f6ce465cc7f6, type: 2}
+  contentMat: {fileID: 2100000, guid: 15965b9976d344b99b1bd73cfed67038, type: 2}
   strokeThickness: 0.01
 --- !u!65 &6100705330552812192
 BoxCollider:
