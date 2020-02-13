@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer_overall : MonoBehaviour
 {
@@ -13,13 +14,13 @@ public class Timer_overall : MonoBehaviour
     public float Max_Time // get and set start_time
     {
         get { return max_T; }
-        set { return max_T; }
+        set { max_T = value; }
     }
 
     public float Current_T //??? May use when there is a "accident" in the game?increase or decrease current time
     {
         get { return current_T; }
-        set { return current_T; }
+        set { current_T = value; }
     }
 
     public void EndGame()
@@ -40,20 +41,20 @@ public class Timer_overall : MonoBehaviour
     void Update()
     {
         //update current time
-        nTime += Time.deltaTime;
-        minutes = nTime / 60f;
-        seconds = nTime % 60f;
+        current_T += Time.deltaTime;
+        minutes = current_T / 60f;
+        seconds = current_T % 60f;
 
         //before the end of game
-        if (nTime <= max_T)
+        if (current_T <= max_T)
         {
             //display current remaining time
-            display_time.text = minutes.ToString("00") + ":" + seconds.ToString("00");
+            display_T.text = minutes.ToString("00") + ":" + seconds.ToString("00");
         }
         //end of the game
         else
         {
-            display_time.text = minutes.ToString("00") + ":" + seconds.ToString("00");
+            display_T.text = minutes.ToString("00") + ":" + seconds.ToString("00");
             EndGame();
         }
     }

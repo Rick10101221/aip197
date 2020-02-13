@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer_round : MonoBehaviour
 {
@@ -9,17 +10,18 @@ public class Timer_round : MonoBehaviour
     private float seconds;
     private float start_T; // different start or limited time for each turn
     private Text display_time; //TODO!!!
+    //should we include a variable whether the timer should be hidden?
     
     public float Start_Time // get and set start_time
     {
         get { return start_T; }
-        set { return start_T; }
+        set { start_T = value; }
     }
 
     public float Current_Time //??? May use when there is a "accident" in the game?increase or decrease current time
     {
         get { return nTime;  }
-        set { return nTime;  }
+        set { nTime = value;  }
     }
 
     public void EndRound()

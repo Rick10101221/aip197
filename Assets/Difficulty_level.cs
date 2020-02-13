@@ -5,12 +5,12 @@ using UnityEngine;
 public class Difficulty_level : MonoBehaviour
 {
 
-    public static float level;
+    public float level;
 
     public float Difficulty // get and set start_time
     {
         get { return level; }
-        set { return level; }
+        set { level = value; }
     }
 
     public float Change_level(int round, int anxiety)
