@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class timer_round : MonoBehaviour
+public class Timer_round : MonoBehaviour
 {
-    private float difficult_level; //difficult level for each turn
     private float nTime; // current time of the game
-    private float start_T; // start or limited time for each turn
+    private float start_T; // different start or limited time for each turn
     private Text display_time;
     
-    public float start_Time // get and set start_time
+    public float Start_Time // get and set start_time
     {
         get { return start_T; }
         set { return start_T; }
@@ -36,12 +35,24 @@ public class timer_round : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //update current time
         nTime -= Time.deltaTime;
-        display_time = nTime.ToString("f2");
+
+        // round end
         if (nTime <= 0)
         {
+            // time display 0:00
+            display_time.text = "0:00";
             //end this turn and go to next difficult level
             EndRound();
+        }
+
+        else
+        {
+            //display current remaining time
+            minutes = nTime / 60f;
+            seconds = nTime % 60f;
+            display_time.text = minutes + ":" + seconds.ToString("00");
         }
     }
 }
