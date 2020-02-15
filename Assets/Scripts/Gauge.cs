@@ -24,7 +24,7 @@ public class Gauge : MonoBehaviour
     {
         currentAnxiety += 1 * Time.deltaTime;
         slider.value = currentAnxiety;
-        if (currentAnxiety >= 10.0f)
+        if (currentAnxiety >= 50.0f)
         {
             slider.gameObject.transform.Find("Fill Area").Find("Fill").GetComponent<Image>().color
                 = Color.red;
