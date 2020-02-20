@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294808168
+    rgba: 4294808424
   m_fontColor: {r: 0.40784314, g: 0.57559925, b: 0.99215686, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294808168
+    rgba: 4294808424
   m_fontColor: {r: 0.40784314, g: 0.57559925, b: 0.99215686, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2737,6 +2737,7 @@ GameObject:
   - component: {fileID: 1199881252848891209}
   - component: {fileID: 1199881252848891208}
   - component: {fileID: 1199881252848891207}
+  - component: {fileID: 3974540092408738469}
   m_Layer: 5
   m_Name: RedOption
   m_TagString: Untagged
@@ -2843,17 +2844,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 46e8a4882b9ae45b8a3d2c709a1a286e, type: 3}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1199881252789581520}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!65 &3974540092408738469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199881252848891205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 275.8, y: 134, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1199881252882565639
 GameObject:
   m_ObjectHideFlags: 0

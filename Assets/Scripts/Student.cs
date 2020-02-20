@@ -1,5 +1,6 @@
 using UnityEngine;
-using System.Collections.Generic;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using Valve.VR;
 
 public class Student : MonoBehaviour
@@ -19,11 +20,14 @@ public class Student : MonoBehaviour
 
     /* Debouncer for trigger */
     private bool held;
+    private LineRenderer pointerLine;
 
     private void Awake()
     {
         Debug.Assert(pencil);
         Debug.Assert(pointer);
+
+        pointerLine = pointer.GetComponent<LineRenderer>();
     }
 
     private void LateUpdate()
@@ -39,24 +43,52 @@ public class Student : MonoBehaviour
             pencilClone.transform.localRotation = Quaternion.AngleAxis(180f - pencilSlant, Vector3.left);
         }
 
-        /* Do drawing */
-        float trigger = SteamVR_Actions._default.Squeeze.GetAxis(SteamVR_Input_Sources.RightHand);
         RaycastHit hit;
-
-        if (trigger > triggerThreshold && Physics.Raycast(pointer.transform.position, pointer.transform.rotation * new Vector3(0, 0, 1), out hit))
+        if (!Physics.Raycast(pointer.transform.position, pointer.transform.rotation * new Vector3(0, 0, 1), out hit))
         {
-            Paper paper = hit.collider?.GetComponent<Paper>();
+            /* Skip if we didn't hit anything (shouldn't really ever happen). */
+            return;
+        }
 
-            if (!held)
+        /* Shrink pointer not to extend beyond the position we hit. */
+        pointerLine.SetPosition(pointerLine.positionCount - 1, new Vector3(0, 0, hit.distance));
+
+        /* Check for input */
+        float trigger = SteamVR_Actions._default.Squeeze.GetAxis(SteamVR_Input_Sources.RightHand);
+        if (trigger > triggerThreshold)
+        {
+            if (hit.collider != null)
             {
-                paper?.ClearLast();
-                held = true;
-            }
+                Paper paper = hit.collider.GetComponent<Paper>();
 
-            paper?.Impact(hit.point, trigger);
+                if (paper)
+                {
+                    /* Hit paper. */
+                    if (!held)
+                    {
+                        paper.ClearLast();
+                        held = true;
+                    }
+
+                    paper.Impact(hit.point, trigger);
+                }
+                else
+                {
+                    /* Hit a button? */
+                    Button button = hit.collider.GetComponent<Button>();
+
+                    if (button)
+                    {
+                        ExecuteEvents.Execute(button.gameObject,
+                                              new BaseEventData(EventSystem.current),
+                                              ExecuteEvents.submitHandler);
+                    }
+                }
+            }
         }
         else
         {
+            /* Not holding down the trigger. */
             held = false;
         }
     }
