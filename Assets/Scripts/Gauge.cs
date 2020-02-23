@@ -7,6 +7,9 @@ public class Gauge : MonoBehaviour
 {
 
     public Slider slider;
+    [SerializeField] private float thresholdAnxiety = 0.1f;
+
+
     float currentAnxiety = 0.0f;
     float fullAnxiety = 100.0f;
 
@@ -24,7 +27,7 @@ public class Gauge : MonoBehaviour
     {
         currentAnxiety += 1 * Time.deltaTime;
         slider.value = currentAnxiety;
-        if (currentAnxiety >= 50.0f)
+        if (currentAnxiety >= thresholdAnxiety)
         {
             slider.gameObject.transform.Find("Fill Area").Find("Fill").GetComponent<Image>().color
                 = Color.red;

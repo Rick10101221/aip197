@@ -13,6 +13,14 @@ public class Student : MonoBehaviour
     [SerializeField]
     private float triggerThreshold = 0.1f;
 
+    /* Dot at the end of Pointer */
+    [SerializeField]
+    private GameObject m_Dot;
+
+    /* Input Module */
+    [SerializeField]
+    private VRInputModule m_InputModule;
+
     /* How much the pencil is tilted from the pointer. */
     [SerializeField]
     private float pencilSlant = 30f;
@@ -52,6 +60,12 @@ public class Student : MonoBehaviour
 
         /* Shrink pointer not to extend beyond the position we hit. */
         pointerLine.SetPosition(pointerLine.positionCount - 1, new Vector3(0, 0, hit.distance));
+
+        // End position for the dot
+        //Vector3 endPosition = pointer.transform.position + (pointer.transform.forward * );
+
+        // Sets position of the dot
+        //m_Dot.transform.position = endPosition;
 
         /* Check for input */
         float trigger = SteamVR_Actions._default.Squeeze.GetAxis(SteamVR_Input_Sources.RightHand);
