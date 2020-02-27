@@ -27,7 +27,6 @@ public class Student : MonoBehaviour
     #pragma warning restore CS0649
 
     /* Debouncer for trigger */
-    private bool held;
     private LineRenderer pointerLine;
 
     private void Awake()
@@ -60,12 +59,7 @@ public class Student : MonoBehaviour
 
         /* Shrink pointer not to extend beyond the position we hit. */
         pointerLine.SetPosition(pointerLine.positionCount - 1, new Vector3(0, 0, hit.distance));
-
-        // End position for the dot
-        //Vector3 endPosition = pointer.transform.position + (pointer.transform.forward * );
-
-        // Sets position of the dot
-        //m_Dot.transform.position = endPosition;
+		m_Dot.transform.position = hit.point;
 
         /* Check for input */
         float trigger = SteamVR_Actions._default.Squeeze.GetAxis(SteamVR_Input_Sources.RightHand);
@@ -73,37 +67,16 @@ public class Student : MonoBehaviour
         {
             if (hit.collider != null)
             {
-                Paper paper = hit.collider.GetComponent<Paper>();
+				/* Hit a button? */
+				Button button = hit.collider.GetComponent<Button>();
 
-                if (paper)
-                {
-                    /* Hit paper. */
-                    if (!held)
-                    {
-                        paper.ClearLast();
-                        held = true;
-                    }
-
-                    paper.Impact(hit.point, trigger);
-                }
-                else
-                {
-                    /* Hit a button? */
-                    Button button = hit.collider.GetComponent<Button>();
-
-                    if (button)
-                    {
-                        ExecuteEvents.Execute(button.gameObject,
-                                              new BaseEventData(EventSystem.current),
-                                              ExecuteEvents.submitHandler);
-                    }
-                }
+				if (button)
+				{
+					ExecuteEvents.Execute(button.gameObject,
+										  new BaseEventData(EventSystem.current),
+										  ExecuteEvents.submitHandler);
+				}
             }
-        }
-        else
-        {
-            /* Not holding down the trigger. */
-            held = false;
         }
     }
 }
