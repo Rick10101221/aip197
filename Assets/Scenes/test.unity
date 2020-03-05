@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 6400597}
   - component: {fileID: 6400596}
   - component: {fileID: 6400595}
+  - component: {fileID: 6400598}
   m_Layer: 0
   m_Name: Question 5
   m_TagString: Untagged
@@ -147,17 +148,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6400593}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1170019846}
   m_Father: {fileID: 387658058}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6400595
@@ -220,6 +221,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &6400598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6400593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &6466232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,6 +1503,7 @@ GameObject:
   - component: {fileID: 79442678}
   - component: {fileID: 79442677}
   - component: {fileID: 79442676}
+  - component: {fileID: 79442679}
   m_Layer: 0
   m_Name: Question 2
   m_TagString: Untagged
@@ -1503,17 +1518,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79442674}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1603563408}
   m_Father: {fileID: 387658058}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79442676
@@ -1576,6 +1591,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &79442679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79442674}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &82280861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,6 +3310,7 @@ GameObject:
   - component: {fileID: 156612509}
   - component: {fileID: 156612508}
   - component: {fileID: 156612507}
+  - component: {fileID: 156612510}
   m_Layer: 0
   m_Name: Question 1
   m_TagString: Untagged
@@ -3296,17 +3325,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156612505}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 106402012}
   m_Father: {fileID: 387658058}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156612507
@@ -3369,6 +3398,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &156612510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156612505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &158036475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3586,6 +3628,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3677696108535757054, guid: ed1faa5c410af4ac1bb95938de58aab3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3677696108847731511, guid: ed1faa5c410af4ac1bb95938de58aab3,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -3631,6 +3678,7 @@ GameObject:
   - component: {fileID: 165163796}
   - component: {fileID: 165163795}
   - component: {fileID: 165163794}
+  - component: {fileID: 165163797}
   m_Layer: 0
   m_Name: Question 32
   m_TagString: Untagged
@@ -3645,17 +3693,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165163792}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1789631366}
   m_Father: {fileID: 387658058}
   m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165163794
@@ -3718,6 +3766,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &165163797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165163792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &169149283
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,6 +3868,7 @@ GameObject:
   - component: {fileID: 173541770}
   - component: {fileID: 173541769}
   - component: {fileID: 173541768}
+  - component: {fileID: 173541771}
   m_Layer: 0
   m_Name: Question 27
   m_TagString: Untagged
@@ -3821,17 +3883,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173541766}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 147584406}
   m_Father: {fileID: 387658058}
   m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173541768
@@ -3894,6 +3956,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &173541771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &177001922
 GameObject:
   m_ObjectHideFlags: 0
@@ -6892,6 +6967,7 @@ GameObject:
   - component: {fileID: 313293048}
   - component: {fileID: 313293047}
   - component: {fileID: 313293046}
+  - component: {fileID: 313293049}
   m_Layer: 0
   m_Name: Question 15
   m_TagString: Untagged
@@ -6906,17 +6982,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313293044}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2092294760}
   m_Father: {fileID: 387658058}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313293046
@@ -6979,6 +7055,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &313293049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313293044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &321936501
 GameObject:
   m_ObjectHideFlags: 0
@@ -7951,6 +8040,7 @@ GameObject:
   - component: {fileID: 338074985}
   - component: {fileID: 338074984}
   - component: {fileID: 338074983}
+  - component: {fileID: 338074986}
   m_Layer: 0
   m_Name: Question 28
   m_TagString: Untagged
@@ -7965,17 +8055,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338074981}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 921161454}
   m_Father: {fileID: 387658058}
   m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338074983
@@ -8038,6 +8128,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &338074986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338074981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &338786027
 GameObject:
   m_ObjectHideFlags: 0
@@ -8442,6 +8545,7 @@ GameObject:
   - component: {fileID: 351940534}
   - component: {fileID: 351940533}
   - component: {fileID: 351940532}
+  - component: {fileID: 351940535}
   m_Layer: 0
   m_Name: Question 14
   m_TagString: Untagged
@@ -8456,17 +8560,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351940530}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1581455990}
   m_Father: {fileID: 387658058}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351940532
@@ -8529,6 +8633,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &351940535
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351940530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &352417310
 GameObject:
   m_ObjectHideFlags: 0
@@ -9113,6 +9230,7 @@ GameObject:
   - component: {fileID: 375410416}
   - component: {fileID: 375410415}
   - component: {fileID: 375410414}
+  - component: {fileID: 375410417}
   m_Layer: 0
   m_Name: Question 17
   m_TagString: Untagged
@@ -9127,17 +9245,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375410412}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1500123191}
   m_Father: {fileID: 387658058}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375410414
@@ -9200,6 +9318,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &375410417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375410412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &380715427
 GameObject:
   m_ObjectHideFlags: 0
@@ -9296,8 +9427,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387658057}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1, z: 0}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0.966, y: 1.513, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 156612506}
@@ -9334,7 +9465,7 @@ Transform:
   - {fileID: 165163793}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!1 &387828065
 GameObject:
   m_ObjectHideFlags: 0
@@ -10867,6 +10998,7 @@ GameObject:
   - component: {fileID: 472423105}
   - component: {fileID: 472423104}
   - component: {fileID: 472423103}
+  - component: {fileID: 472423106}
   m_Layer: 0
   m_Name: Question 29
   m_TagString: Untagged
@@ -10881,17 +11013,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472423101}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 269024268}
   m_Father: {fileID: 387658058}
   m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472423103
@@ -10954,6 +11086,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &472423106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472423101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &476322852
 GameObject:
   m_ObjectHideFlags: 0
@@ -11199,6 +11344,7 @@ GameObject:
   - component: {fileID: 488386689}
   - component: {fileID: 488386688}
   - component: {fileID: 488386687}
+  - component: {fileID: 488386690}
   m_Layer: 0
   m_Name: Question 19
   m_TagString: Untagged
@@ -11213,17 +11359,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488386685}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2033408456}
   m_Father: {fileID: 387658058}
   m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &488386687
@@ -11286,6 +11432,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &488386690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488386685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &493009081
 GameObject:
   m_ObjectHideFlags: 0
@@ -11617,6 +11776,7 @@ GameObject:
   - component: {fileID: 500846562}
   - component: {fileID: 500846561}
   - component: {fileID: 500846560}
+  - component: {fileID: 500846563}
   m_Layer: 0
   m_Name: Question 21
   m_TagString: Untagged
@@ -11631,17 +11791,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500846558}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1273630138}
   m_Father: {fileID: 387658058}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500846560
@@ -11704,6 +11864,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &500846563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500846558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &504521363
 GameObject:
   m_ObjectHideFlags: 0
@@ -11793,6 +11966,7 @@ GameObject:
   - component: {fileID: 505034452}
   - component: {fileID: 505034451}
   - component: {fileID: 505034450}
+  - component: {fileID: 505034453}
   m_Layer: 0
   m_Name: Question 20
   m_TagString: Untagged
@@ -11807,17 +11981,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505034448}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 477545387}
   m_Father: {fileID: 387658058}
   m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505034450
@@ -11880,6 +12054,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &505034453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505034448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &516390507
 GameObject:
   m_ObjectHideFlags: 0
@@ -14064,6 +14251,7 @@ GameObject:
   - component: {fileID: 594900652}
   - component: {fileID: 594900651}
   - component: {fileID: 594900650}
+  - component: {fileID: 594900653}
   m_Layer: 0
   m_Name: Question 11
   m_TagString: Untagged
@@ -14078,17 +14266,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594900648}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1920106455}
   m_Father: {fileID: 387658058}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594900650
@@ -14151,6 +14339,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &594900653
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594900648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &597624006
 GameObject:
   m_ObjectHideFlags: 0
@@ -15193,6 +15394,7 @@ GameObject:
   - component: {fileID: 662113109}
   - component: {fileID: 662113108}
   - component: {fileID: 662113107}
+  - component: {fileID: 662113110}
   m_Layer: 0
   m_Name: Question 26
   m_TagString: Untagged
@@ -15207,17 +15409,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662113105}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 671744496}
   m_Father: {fileID: 387658058}
   m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662113107
@@ -15280,6 +15482,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &662113110
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662113105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &671744495
 GameObject:
   m_ObjectHideFlags: 0
@@ -15521,6 +15736,7 @@ GameObject:
   - component: {fileID: 679114520}
   - component: {fileID: 679114519}
   - component: {fileID: 679114518}
+  - component: {fileID: 679114521}
   m_Layer: 0
   m_Name: Question 18
   m_TagString: Untagged
@@ -15535,17 +15751,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679114516}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 826786052}
   m_Father: {fileID: 387658058}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679114518
@@ -15608,6 +15824,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &679114521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679114516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &690900531
 GameObject:
   m_ObjectHideFlags: 0
@@ -16852,6 +17081,7 @@ GameObject:
   - component: {fileID: 738536577}
   - component: {fileID: 738536576}
   - component: {fileID: 738536575}
+  - component: {fileID: 738536578}
   m_Layer: 0
   m_Name: Question 31
   m_TagString: Untagged
@@ -16866,17 +17096,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738536573}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 451872359}
   m_Father: {fileID: 387658058}
   m_RootOrder: 30
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738536575
@@ -16939,6 +17169,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &738536578
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738536573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &744727476
 GameObject:
   m_ObjectHideFlags: 0
@@ -21548,6 +21791,7 @@ GameObject:
   - component: {fileID: 949565180}
   - component: {fileID: 949565179}
   - component: {fileID: 949565178}
+  - component: {fileID: 949565181}
   m_Layer: 0
   m_Name: Question 9
   m_TagString: Untagged
@@ -21562,17 +21806,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949565176}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 48725316}
   m_Father: {fileID: 387658058}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949565178
@@ -21635,6 +21879,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &949565181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949565176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &950362529
 GameObject:
   m_ObjectHideFlags: 0
@@ -21724,6 +21981,7 @@ GameObject:
   - component: {fileID: 959204760}
   - component: {fileID: 959204759}
   - component: {fileID: 959204758}
+  - component: {fileID: 959204761}
   m_Layer: 0
   m_Name: Question 16
   m_TagString: Untagged
@@ -21738,17 +21996,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959204756}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1949984851}
   m_Father: {fileID: 387658058}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959204758
@@ -21811,6 +22069,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &959204761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959204756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &969538344
 GameObject:
   m_ObjectHideFlags: 0
@@ -22868,6 +23139,7 @@ GameObject:
   - component: {fileID: 1025488842}
   - component: {fileID: 1025488841}
   - component: {fileID: 1025488840}
+  - component: {fileID: 1025488843}
   m_Layer: 0
   m_Name: Question 4
   m_TagString: Untagged
@@ -22882,17 +23154,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025488838}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1159832896}
   m_Father: {fileID: 387658058}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025488840
@@ -22955,6 +23227,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1025488843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025488838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1028553447
 GameObject:
   m_ObjectHideFlags: 0
@@ -23044,6 +23329,7 @@ GameObject:
   - component: {fileID: 1031429491}
   - component: {fileID: 1031429490}
   - component: {fileID: 1031429489}
+  - component: {fileID: 1031429492}
   m_Layer: 0
   m_Name: Question 25
   m_TagString: Untagged
@@ -23058,17 +23344,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031429487}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1048888584}
   m_Father: {fileID: 387658058}
   m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031429489
@@ -23131,6 +23417,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1031429492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031429487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1039613554
 GameObject:
   m_ObjectHideFlags: 0
@@ -25455,6 +25754,7 @@ GameObject:
   - component: {fileID: 1156792305}
   - component: {fileID: 1156792304}
   - component: {fileID: 1156792303}
+  - component: {fileID: 1156792306}
   m_Layer: 0
   m_Name: Question 8
   m_TagString: Untagged
@@ -25469,17 +25769,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156792301}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1428758146}
   m_Father: {fileID: 387658058}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1156792303
@@ -25542,6 +25842,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1156792306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156792301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1159832895
 GameObject:
   m_ObjectHideFlags: 0
@@ -27228,6 +27541,7 @@ GameObject:
   - component: {fileID: 1209508261}
   - component: {fileID: 1209508260}
   - component: {fileID: 1209508259}
+  - component: {fileID: 1209508262}
   m_Layer: 0
   m_Name: Question 3
   m_TagString: Untagged
@@ -27242,17 +27556,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209508257}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1659241900}
   m_Father: {fileID: 387658058}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1209508259
@@ -27315,6 +27629,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1209508262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209508257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1212109852
 GameObject:
   m_ObjectHideFlags: 0
@@ -30508,6 +30835,7 @@ GameObject:
   - component: {fileID: 1368615734}
   - component: {fileID: 1368615733}
   - component: {fileID: 1368615732}
+  - component: {fileID: 1368615735}
   m_Layer: 0
   m_Name: Question 10
   m_TagString: Untagged
@@ -30522,17 +30850,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368615730}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1414185976}
   m_Father: {fileID: 387658058}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368615732
@@ -30595,6 +30923,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1368615735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368615730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1368881937
 GameObject:
   m_ObjectHideFlags: 0
@@ -32935,6 +33276,7 @@ GameObject:
   - component: {fileID: 1488607252}
   - component: {fileID: 1488607251}
   - component: {fileID: 1488607250}
+  - component: {fileID: 1488607253}
   m_Layer: 0
   m_Name: Question 7
   m_TagString: Untagged
@@ -32949,17 +33291,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488607248}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1978155953}
   m_Father: {fileID: 387658058}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488607250
@@ -33022,6 +33364,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1488607253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488607248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1493456358
 GameObject:
   m_ObjectHideFlags: 0
@@ -34589,6 +34944,7 @@ GameObject:
   - component: {fileID: 1558033867}
   - component: {fileID: 1558033866}
   - component: {fileID: 1558033865}
+  - component: {fileID: 1558033868}
   m_Layer: 0
   m_Name: Question 6
   m_TagString: Untagged
@@ -34603,17 +34959,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558033863}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1714438709}
   m_Father: {fileID: 387658058}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558033865
@@ -34676,6 +35032,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1558033868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558033863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1561461221
 GameObject:
   m_ObjectHideFlags: 0
@@ -35172,6 +35541,7 @@ GameObject:
   - component: {fileID: 1580722979}
   - component: {fileID: 1580722978}
   - component: {fileID: 1580722977}
+  - component: {fileID: 1580722980}
   m_Layer: 0
   m_Name: Question 30
   m_TagString: Untagged
@@ -35186,17 +35556,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580722975}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1049785136}
   m_Father: {fileID: 387658058}
   m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1580722977
@@ -35259,6 +35629,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1580722980
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580722975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1581455989
 GameObject:
   m_ObjectHideFlags: 0
@@ -40947,6 +41330,7 @@ GameObject:
   - component: {fileID: 1869186730}
   - component: {fileID: 1869186729}
   - component: {fileID: 1869186728}
+  - component: {fileID: 1869186731}
   m_Layer: 0
   m_Name: Question 22
   m_TagString: Untagged
@@ -40961,17 +41345,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869186726}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1679037293}
   m_Father: {fileID: 387658058}
   m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1869186728
@@ -41034,6 +41418,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1869186731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869186726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1871414939
 GameObject:
   m_ObjectHideFlags: 0
@@ -42403,6 +42800,7 @@ GameObject:
   - component: {fileID: 1935074506}
   - component: {fileID: 1935074505}
   - component: {fileID: 1935074504}
+  - component: {fileID: 1935074507}
   m_Layer: 0
   m_Name: Question 23
   m_TagString: Untagged
@@ -42417,17 +42815,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935074502}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1046878586}
   m_Father: {fileID: 387658058}
   m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1935074504
@@ -42490,6 +42888,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1935074507
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935074502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &1947630245
 GameObject:
   m_ObjectHideFlags: 0
@@ -44112,6 +44523,7 @@ GameObject:
   - component: {fileID: 2019832097}
   - component: {fileID: 2019832096}
   - component: {fileID: 2019832095}
+  - component: {fileID: 2019832098}
   m_Layer: 0
   m_Name: Question 13
   m_TagString: Untagged
@@ -44126,17 +44538,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019832093}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 37980874}
   m_Father: {fileID: 387658058}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019832095
@@ -44199,6 +44611,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &2019832098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019832093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &2024538289
 GameObject:
   m_ObjectHideFlags: 0
@@ -44442,6 +44867,7 @@ GameObject:
   - component: {fileID: 2033337213}
   - component: {fileID: 2033337212}
   - component: {fileID: 2033337211}
+  - component: {fileID: 2033337214}
   m_Layer: 0
   m_Name: Question 24
   m_TagString: Untagged
@@ -44456,17 +44882,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033337209}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1207646617}
   m_Father: {fileID: 387658058}
   m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2033337211
@@ -44529,6 +44955,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &2033337214
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033337209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &2033408455
 GameObject:
   m_ObjectHideFlags: 0
@@ -45577,6 +46016,7 @@ GameObject:
   - component: {fileID: 2080536638}
   - component: {fileID: 2080536637}
   - component: {fileID: 2080536636}
+  - component: {fileID: 2080536639}
   m_Layer: 0
   m_Name: Question 12
   m_TagString: Untagged
@@ -45591,17 +46031,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080536634}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 527043005}
   m_Father: {fileID: 387658058}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.966, y: 0.413}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.941, y: 0.747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080536636
@@ -45664,6 +46104,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &2080536639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080536634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.88, y: 0, z: 1.3}
+  m_Center: {x: -0.93, y: -1.03, z: -0.67}
 --- !u!1 &2082803407
 GameObject:
   m_ObjectHideFlags: 0

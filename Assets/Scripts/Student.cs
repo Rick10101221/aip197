@@ -65,15 +65,16 @@ public class Student : MonoBehaviour
         {
             if (!held && hit.collider != null)
             {
-				/* Hit a button? */
-				Button button = hit.collider.GetComponent<Button>();
+                held = true;
+
+                /* Hit a button? */
+                Button button = hit.collider.GetComponent<Button>();
 
 				if (button)
 				{
 					ExecuteEvents.Execute(button.gameObject,
 										  new BaseEventData(EventSystem.current),
 										  ExecuteEvents.submitHandler);
-                    held = true;
 				}
             }
         }

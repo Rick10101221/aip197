@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MainTimer : MonoBehaviour
 {
-
     float currentTime = 0.0f;
     float startingTime = 300.0f;
 
