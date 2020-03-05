@@ -17,16 +17,14 @@ public class Student : MonoBehaviour
     [SerializeField]
     private GameObject m_Dot;
 
-    /* Input Module */
-    [SerializeField]
-    private VRInputModule m_InputModule;
-
     /* How much the pencil is tilted from the pointer. */
     [SerializeField]
     private float pencilSlant = 30f;
-    #pragma warning restore CS0649
+#pragma warning restore CS0649
 
     /* Debouncer for trigger */
+    private bool held;
+
     private LineRenderer pointerLine;
 
     private void Awake()
@@ -65,7 +63,7 @@ public class Student : MonoBehaviour
         float trigger = SteamVR_Actions._default.Squeeze.GetAxis(SteamVR_Input_Sources.RightHand);
         if (trigger > triggerThreshold)
         {
-            if (hit.collider != null)
+            if (!held && hit.collider != null)
             {
 				/* Hit a button? */
 				Button button = hit.collider.GetComponent<Button>();
@@ -75,8 +73,13 @@ public class Student : MonoBehaviour
 					ExecuteEvents.Execute(button.gameObject,
 										  new BaseEventData(EventSystem.current),
 										  ExecuteEvents.submitHandler);
+                    held = true;
 				}
             }
+        }
+        else
+        {
+            held = false;
         }
     }
 }
